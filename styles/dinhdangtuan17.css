@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:auto;}
+.khung{
+	width:960px;
+	height:200px;
+	border:solid 1px black;
+}
+
+.menu{
+	padding-top: 10px;
+}
+.menu a{
+	text-decoration: none;
+	padding-right:2px;
+	padding-left: 10px;
+	color:black;
+}
+.menu a:hover{
+	color:red;
+}
+.chu{
+	float:right ;
+	transform: translate(-10px,-20px);
+}
+.chu a{
+	text-decoration: none;
+	color:black;
+}
+.chu a:hover{
+	color:green;
+}
